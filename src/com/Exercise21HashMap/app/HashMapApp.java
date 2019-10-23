@@ -23,7 +23,7 @@ public class HashMapApp {
 		
 		for(Map.Entry<Integer, String> miMap : miHash.entrySet())
 		{
-			System.out.println(String.format("The key is: %d, value %s", miMap.getKey(), miMap.getValue()));
+			System.out.println(String.format("The key is: %d, value: %s", miMap.getKey(), miMap.getValue()));
 		}
 		
 		
